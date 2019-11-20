@@ -4,5 +4,5 @@ This is a simple example game. It's like the classic pong, but you play as the b
 
 The game is broken into two files: 
 
-code.py - contains the main loop, screen setup, and high-level game updating
-pong_helpsers.py - contains some helper objects for the game elements. code.py imports, creates, and updates these objects to make the game chooch.
+ - code.py - contains the main loop, screen setup, and high-level game updating
+ - pong_helpsers.py - contains some helper objects for the game elements. code.py imports, creates, and updates these objects to make the game chooch.
