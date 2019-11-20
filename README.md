@@ -9,4 +9,4 @@ The game is broken into two files:
  
 
 Quick Sample Video of Gameplay:
-[![Youtube Video Link]()](https://www.youtube.com/watch?v=y5f90KyQ64g)
+[![Youtube Video Link](https://github.com/FoamyGuy/CircuitPython-Badge-Reverse-Pong-Game/blob/master/yt_thumb.png?raw=true)](https://www.youtube.com/watch?v=y5f90KyQ64g)
