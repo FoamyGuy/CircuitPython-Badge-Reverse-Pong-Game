@@ -6,3 +6,7 @@ The game is broken into two files:
 
  - code.py - contains the main loop, screen setup, and high-level game updating
  - pong_helpsers.py - contains some helper objects for the game elements. code.py imports, creates, and updates these objects to make the game chooch.
+ 
+
+Quick Sample Video of Gameplay:
+[![Youtube Video Link]()](https://www.youtube.com/watch?v=y5f90KyQ64g)
