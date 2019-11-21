@@ -4,7 +4,7 @@ import digitalio
 from adafruit_pybadger import PyBadger
 
 """
-Pong paddle object that moves up and down on it's own ad a steady rate.
+Pong paddle object that moves up and down on it's own at a steady rate.
 """
 class AutoPaddle:
     def __init__(self, width, height, start_x, start_y, debug=False):
@@ -47,6 +47,9 @@ class AutoPaddle:
 """
 Pong ball that has automatic movement in the horizontal 
 direction, and manual control in the up and down directions.
+If it hits a paddle it changes direction.
+If it flies off a side edge it resets back to the center.
+If it touches the top or bottom edges it cannot move that direction any further.
 """        
 class ManualBall:
     def __init__(self, diameter, start_x, start_y, debug=False):
@@ -73,6 +76,8 @@ class ManualBall:
     # function to check for collisions between this ball 
     # and the left and right paddle objects that get passed in as parameters
     def check_collisions(self, left_paddle, right_paddle):
+        #TODO: figure out if the x/y coordinate of the ball is centered or top left and adjust the collision check accordingly.
+        
         if self.x == left_paddle.x + left_paddle.width and left_paddle.y < self.y < left_paddle.y + left_paddle.height:
             # if we collide with left paddle then change direction to move right
             self.going_right = True

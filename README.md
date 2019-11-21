@@ -4,8 +4,8 @@ This is a simple example game. It's like the classic pong, but you play as the b
 
 The game is broken into two files: 
 
- - code.py - contains the main loop, screen setup, and high-level game updating
- - pong_helpsers.py - contains some helper objects for the game elements. code.py imports, creates, and updates these objects to make the game chooch.
+ - code.py - Contains the main loop, screen setup, and manages high-level game object update function calls.
+ - pong_helpsers.py - contains helper objects for the game elements. code.py imports, creates, and calls update() on these objects at the appropriate time. The update() functions that are defined in this file control the behavior of the two types of game elements, paddles and balls. The paddles in this variant of the game move up and down automatically. The ball moves left and right automatically, but the up and down movement is controlled by the player using the d-pad. 
  
 I have done my best to thoroughly comment both python files. Intention is that these scripts are basic enough for beginners to use to learn about building games with CircuitPython.
 
