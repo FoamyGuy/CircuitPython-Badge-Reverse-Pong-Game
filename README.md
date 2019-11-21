@@ -19,6 +19,7 @@ If you are trying to practice programming games with CircuitPython here are a fe
  - Manipulate the size of the paddles and/or balls, observe the results. Is the game easier or harder if you make the ball bigger or smaller? Same question for the paddles.
  - Manipulate the speed that the ball moves at by changing how many pixels it moves by during each game update iteration.
  - Manipulate the speed that the paddles move at by changing how many pixels they move during each game update iteration.
+ - Allow the player to speed up and slow down the horizontal movement of the ball with the left and right buttons on the d-pad.
 
 # Quick Sample Video of Gameplay:
 [![Youtube Video Link](https://github.com/FoamyGuy/CircuitPython-Badge-Reverse-Pong-Game/blob/master/yt_thumb.png?raw=true)](https://www.youtube.com/watch?v=y5f90KyQ64g)
