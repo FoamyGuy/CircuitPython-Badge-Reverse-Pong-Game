@@ -2,6 +2,9 @@
 
 This is a simple example game. It's like the classic pong, but you play as the ball instead of a paddle. Your job is to guide the ball up and down using the d-pad as needed to make sure you hit the paddles.
 
+I believe this example should work on the [Adafruit PyBadge](https://www.adafruit.com/product/4200) and [Adafruit PyBadge LC](https://www.adafruit.com/product/3939).
+This example has been tested and is known to work on the [Adafruit EdgeBadge](https://www.adafruit.com/product/4400).
+
 The game is broken into two files: 
 
  - code.py - Contains the main loop, screen setup, and manages high-level game object update function calls.
